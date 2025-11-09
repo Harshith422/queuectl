@@ -1,0 +1,57 @@
+=== JOB 67f028c2-b2d8-4daf-96c1-f668792b616f | START: 2025-11-08T11:29:41.776Z | END: 2025-11-08T11:29:41.832Z ===
+
+COMMAND: not_a_real_command
+
+DURATION: 0.06s
+
+STDOUT:
+(empty)
+
+STDERR:
+'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: not_a_real_command
+'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+=== JOB 67f028c2-b2d8-4daf-96c1-f668792b616f | START: 2025-11-08T11:29:43.849Z | END: 2025-11-08T11:29:43.904Z ===
+
+COMMAND: not_a_real_command
+
+DURATION: 0.06s
+
+STDOUT:
+(empty)
+
+STDERR:
+'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: not_a_real_command
+'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+=== JOB 67f028c2-b2d8-4daf-96c1-f668792b616f | START: 2025-11-08T11:29:43.947Z | END: 2025-11-08T11:29:43.982Z ===
+
+COMMAND: not_a_real_command
+
+DURATION: 0.04s
+
+STDOUT:
+(empty)
+
+STDERR:
+'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: not_a_real_command
+'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+

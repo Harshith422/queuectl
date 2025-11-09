@@ -1,0 +1,58 @@
+[
+  {
+    "id": "58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4",
+    "command": "unknown_command_test",
+    "state": "processing",
+    "attempts": 1,
+    "max_retries": 2,
+    "priority": 4,
+    "timeout_ms": 10000,
+    "created_at": "2025-11-09T12:27:33.192Z",
+    "updated_at": "2025-11-09T12:27:57.730Z",
+    "last_error": "'unknown_command_test' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+  },
+  {
+    "id": "bf5de668-fb32-428e-bf03-092f4b869a7f",
+    "command": "echo 'Job 2: Simulating background process...'",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 3,
+    "priority": 3,
+    "timeout_ms": 10000,
+    "created_at": "2025-11-09T12:27:33.189Z",
+    "updated_at": "2025-11-09T12:27:59.686Z"
+  },
+  {
+    "id": "f782e732-cbc1-4f4e-8267-11684acbccd0",
+    "command": "echo 'Job 1: Hello from QueueCTL!'",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 3,
+    "priority": 2,
+    "timeout_ms": 10000,
+    "created_at": "2025-11-09T12:27:33.184Z",
+    "updated_at": "2025-11-09T12:27:59.790Z"
+  },
+  {
+    "id": "158e9219-0274-470f-ad6e-eb486fb52725",
+    "command": "echo 'Job 3: Data processing complete!'",
+    "state": "processing",
+    "attempts": 0,
+    "max_retries": 3,
+    "priority": 2,
+    "timeout_ms": 10000,
+    "created_at": "2025-11-09T12:27:33.195Z",
+    "updated_at": "2025-11-09T12:27:59.793Z"
+  },
+  {
+    "id": "6ad5e47e-5b38-4de6-808d-5aacef91ee95",
+    "command": "dir",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 2,
+    "priority": 1,
+    "timeout_ms": 10000,
+    "created_at": "2025-11-09T12:27:33.190Z",
+    "updated_at": "2025-11-09T12:27:59.920Z"
+  }
+]

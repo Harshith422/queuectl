@@ -1,0 +1,57 @@
+=== JOB fae837a3-7823-4ba6-a352-f48879a63876 | START: 2025-11-08T13:05:58.658Z | END: 2025-11-08T13:05:58.696Z ===
+
+COMMAND: unknown_command_test
+
+DURATION: 0.04s
+
+STDOUT:
+(empty)
+
+STDERR:
+'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: unknown_command_test
+'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+=== JOB fae837a3-7823-4ba6-a352-f48879a63876 | START: 2025-11-08T13:06:00.701Z | END: 2025-11-08T13:06:00.733Z ===
+
+COMMAND: unknown_command_test
+
+DURATION: 0.03s
+
+STDOUT:
+(empty)
+
+STDERR:
+'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: unknown_command_test
+'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+=== JOB fae837a3-7823-4ba6-a352-f48879a63876 | START: 2025-11-08T13:06:02.612Z | END: 2025-11-08T13:06:02.646Z ===
+
+COMMAND: unknown_command_test
+
+DURATION: 0.03s
+
+STDOUT:
+(empty)
+
+STDERR:
+'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: unknown_command_test
+'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+

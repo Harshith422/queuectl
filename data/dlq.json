@@ -1,0 +1,26 @@
+[
+  {
+    "id": "4ff45002-a61f-41f4-8a0e-4af76c75e30e",
+    "command": "invalid_script_run",
+    "state": "dead",
+    "attempts": 1,
+    "max_retries": 1,
+    "priority": 5,
+    "timeout_ms": 10000,
+    "created_at": "2025-11-09T12:27:33.197Z",
+    "updated_at": "2025-11-09T12:27:55.615Z",
+    "last_error": "'invalid_script_run' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+  },
+  {
+    "id": "ecf0bd98-8d6c-492a-ba56-9520e59b9069",
+    "command": "not_a_real_command",
+    "state": "dead",
+    "attempts": 2,
+    "max_retries": 2,
+    "priority": 5,
+    "timeout_ms": 10000,
+    "created_at": "2025-11-09T12:27:33.187Z",
+    "updated_at": "2025-11-09T12:27:55.670Z",
+    "last_error": "'not_a_real_command' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+  }
+]

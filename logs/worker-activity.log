@@ -1,0 +1,799 @@
+2025-11-07 22:10:11 info: Starting 1 worker(s)
+2025-11-07 22:10:11 info: Worker 1 running
+2025-11-07 22:16:23 info: Worker 1 picked job a3eaa25c-bfdd-4bba-b438-dd7cf6e7bcd6
+2025-11-07 22:16:24 info: Job a3eaa25c-bfdd-4bba-b438-dd7cf6e7bcd6 finished: Hello from QueueCTL
+2025-11-07 22:16:24 info: Worker 1 completed job a3eaa25c-bfdd-4bba-b438-dd7cf6e7bcd6
+2025-11-07 22:21:18 info: Starting 1 worker(s)
+2025-11-07 22:21:18 info: Worker 1 running
+2025-11-07 22:21:18 info: Worker 1 picked job 834f6d46-4331-41b7-96db-32b608bd711f
+2025-11-07 22:21:18 info: Job 834f6d46-4331-41b7-96db-32b608bd711f failed with: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-07 22:21:18 info: Job 834f6d46-4331-41b7-96db-32b608bd711f failed. will retry in 2000ms (attempt 1/2)
+2025-11-07 22:21:20 info: Worker 1 picked job 834f6d46-4331-41b7-96db-32b608bd711f
+2025-11-07 22:21:20 info: Job 834f6d46-4331-41b7-96db-32b608bd711f failed with: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-07 22:21:20 info: Job 834f6d46-4331-41b7-96db-32b608bd711f failed. will retry in 4000ms (attempt 2/2)
+2025-11-07 22:21:24 info: Worker 1 picked job 834f6d46-4331-41b7-96db-32b608bd711f
+2025-11-07 22:21:24 info: Job 834f6d46-4331-41b7-96db-32b608bd711f failed with: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-07 23:42:26 INFO: Starting 1 worker...
+2025-11-07 23:42:26 INFO: Worker 1 initialized and polling for jobs...
+2025-11-07 23:42:26 INFO: Worker 1 picked up job d599f67d-d41d-46ca-82d5-e8b7308d27d4
+2025-11-07 23:42:27 INFO: Job d599f67d-d41d-46ca-82d5-e8b7308d27d4 completed: Hello from QueueCTL
+2025-11-07 23:42:27 INFO: Worker 1 finished job d599f67d-d41d-46ca-82d5-e8b7308d27d4
+2025-11-07 23:42:48 INFO: Worker 1 picked up job 456f5994-cfbe-4d59-a102-5db61d441558
+2025-11-07 23:42:48 INFO: Job 456f5994-cfbe-4d59-a102-5db61d441558 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-07 23:42:48 INFO: Job 456f5994-cfbe-4d59-a102-5db61d441558 failed. Retrying in 2s (attempt 1/2)
+2025-11-07 23:42:50 INFO: Worker 1 picked up job 456f5994-cfbe-4d59-a102-5db61d441558
+2025-11-07 23:42:50 INFO: Job 456f5994-cfbe-4d59-a102-5db61d441558 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-07 23:42:50 INFO: Job 456f5994-cfbe-4d59-a102-5db61d441558 failed. Retrying in 4s (attempt 2/2)
+2025-11-07 23:42:54 INFO: Worker 1 picked up job 456f5994-cfbe-4d59-a102-5db61d441558
+2025-11-07 23:42:54 INFO: Job 456f5994-cfbe-4d59-a102-5db61d441558 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-07 23:43:56 INFO: Worker 1 picked up job 456f5994-cfbe-4d59-a102-5db61d441558
+2025-11-07 23:43:56 INFO: Job 456f5994-cfbe-4d59-a102-5db61d441558 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-07 23:43:56 INFO: Job 456f5994-cfbe-4d59-a102-5db61d441558 failed. Retrying in 2s (attempt 1/2)
+2025-11-08 00:26:55 INFO:  Starting 1 worker(s)
+2025-11-08 00:26:55 INFO:  Worker 1 started
+2025-11-08 00:26:55 INFO:  Worker 1 picked job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (priority 5)
+2025-11-08 00:26:55 INFO: Executing job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (timeout 4s)
+2025-11-08 00:26:55 INFO: Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 00:26:55 INFO:  Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 00:26:57 INFO:  Worker 1 picked job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (priority 5)
+2025-11-08 00:26:57 INFO: Executing job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (timeout 4s)
+2025-11-08 00:26:57 INFO: Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 00:26:57 INFO:  Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 00:27:01 INFO:  Worker 1 picked job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (priority 5)
+2025-11-08 00:27:01 INFO: Executing job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (timeout 4s)
+2025-11-08 00:27:01 INFO: Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 00:27:01 INFO:  Worker 1 picked job 7f18b57c-f561-49e6-898f-b8ce13bafb2b (priority 3)
+2025-11-08 00:27:01 INFO: Executing job 7f18b57c-f561-49e6-898f-b8ce13bafb2b (timeout 10s)
+2025-11-08 00:27:01 INFO: Job 7f18b57c-f561-49e6-898f-b8ce13bafb2b completed successfully in 0.03s
+2025-11-08 00:27:01 INFO:  Worker 1 completed job 7f18b57c-f561-49e6-898f-b8ce13bafb2b
+2025-11-08 16:59:41 INFO:  Starting 2 worker(s)
+2025-11-08 16:59:41 INFO:  Worker 1 started
+2025-11-08 16:59:41 INFO:  Worker 1 picked job 67f028c2-b2d8-4daf-96c1-f668792b616f (priority 5)
+2025-11-08 16:59:41 INFO: Executing job 67f028c2-b2d8-4daf-96c1-f668792b616f (timeout 10s)
+2025-11-08 16:59:41 INFO:  Worker 2 started
+2025-11-08 16:59:41 INFO:  Worker 2 picked job f1460a60-16dc-404f-9d6c-6e51f983e8d1 (priority 5)
+2025-11-08 16:59:41 INFO: Executing job f1460a60-16dc-404f-9d6c-6e51f983e8d1 (timeout 10s)
+2025-11-08 16:59:41 INFO: Job 67f028c2-b2d8-4daf-96c1-f668792b616f failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 16:59:41 INFO:  Job 67f028c2-b2d8-4daf-96c1-f668792b616f failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 16:59:41 INFO: Job f1460a60-16dc-404f-9d6c-6e51f983e8d1 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 16:59:41 INFO:  Job f1460a60-16dc-404f-9d6c-6e51f983e8d1 failed ('invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/1)
+2025-11-08 16:59:43 INFO:  Worker 1 picked job 67f028c2-b2d8-4daf-96c1-f668792b616f (priority 5)
+2025-11-08 16:59:43 INFO: Executing job 67f028c2-b2d8-4daf-96c1-f668792b616f (timeout 10s)
+2025-11-08 16:59:43 INFO:  Worker 2 picked job f1460a60-16dc-404f-9d6c-6e51f983e8d1 (priority 5)
+2025-11-08 16:59:43 INFO: Executing job f1460a60-16dc-404f-9d6c-6e51f983e8d1 (timeout 10s)
+2025-11-08 16:59:43 INFO: Job 67f028c2-b2d8-4daf-96c1-f668792b616f failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 16:59:43 INFO:  Job 67f028c2-b2d8-4daf-96c1-f668792b616f failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 16:59:43 INFO: Job f1460a60-16dc-404f-9d6c-6e51f983e8d1 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 16:59:43 INFO:  Worker 2 picked job 67f028c2-b2d8-4daf-96c1-f668792b616f (priority 5)
+2025-11-08 16:59:43 INFO: Executing job 67f028c2-b2d8-4daf-96c1-f668792b616f (timeout 10s)
+2025-11-08 16:59:43 INFO: Job 67f028c2-b2d8-4daf-96c1-f668792b616f failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 16:59:43 INFO:  Worker 2 picked job 535f6f43-0c91-4a83-a376-6181ea1f225c (priority 4)
+2025-11-08 16:59:43 INFO: Executing job 535f6f43-0c91-4a83-a376-6181ea1f225c (timeout 10s)
+2025-11-08 16:59:44 INFO: Job 535f6f43-0c91-4a83-a376-6181ea1f225c failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 16:59:44 INFO:  Job 535f6f43-0c91-4a83-a376-6181ea1f225c failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 16:59:46 INFO:  Worker 2 picked job 535f6f43-0c91-4a83-a376-6181ea1f225c (priority 4)
+2025-11-08 16:59:46 INFO: Executing job 535f6f43-0c91-4a83-a376-6181ea1f225c (timeout 10s)
+2025-11-08 16:59:46 INFO: Job 535f6f43-0c91-4a83-a376-6181ea1f225c failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 16:59:46 INFO:  Job 535f6f43-0c91-4a83-a376-6181ea1f225c failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 16:59:47 INFO:  Worker 1 picked job 535f6f43-0c91-4a83-a376-6181ea1f225c (priority 4)
+2025-11-08 16:59:47 INFO: Executing job 535f6f43-0c91-4a83-a376-6181ea1f225c (timeout 10s)
+2025-11-08 16:59:48 INFO: Job 535f6f43-0c91-4a83-a376-6181ea1f225c failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 16:59:48 INFO:  Worker 1 picked job 7ad7cb60-487f-4521-96b1-3b6d4ff27178 (priority 3)
+2025-11-08 16:59:48 INFO: Executing job 7ad7cb60-487f-4521-96b1-3b6d4ff27178 (timeout 10s)
+2025-11-08 16:59:48 INFO: Job 7ad7cb60-487f-4521-96b1-3b6d4ff27178 completed successfully in 0.09s
+2025-11-08 16:59:48 INFO:  Worker 1 completed job 7ad7cb60-487f-4521-96b1-3b6d4ff27178
+2025-11-08 16:59:48 INFO:  Worker 1 picked job c3e0024f-fd5f-4add-966e-acd5a4c2af6b (priority 2)
+2025-11-08 16:59:48 INFO: Executing job c3e0024f-fd5f-4add-966e-acd5a4c2af6b (timeout 10s)
+2025-11-08 16:59:48 INFO: Job c3e0024f-fd5f-4add-966e-acd5a4c2af6b completed successfully in 0.06s
+2025-11-08 16:59:48 INFO:  Worker 1 completed job c3e0024f-fd5f-4add-966e-acd5a4c2af6b
+2025-11-08 16:59:48 INFO:  Worker 1 picked job 4d93ff3a-e427-476c-a08b-1ce5daff1fd9 (priority 2)
+2025-11-08 16:59:48 INFO: Executing job 4d93ff3a-e427-476c-a08b-1ce5daff1fd9 (timeout 10s)
+2025-11-08 16:59:48 INFO: Job 4d93ff3a-e427-476c-a08b-1ce5daff1fd9 completed successfully in 0.06s
+2025-11-08 16:59:48 INFO:  Worker 1 completed job 4d93ff3a-e427-476c-a08b-1ce5daff1fd9
+2025-11-08 16:59:48 INFO:  Worker 1 picked job 55626b22-471a-407f-b2cc-5b755b03e687 (priority 1)
+2025-11-08 16:59:48 INFO: Executing job 55626b22-471a-407f-b2cc-5b755b03e687 (timeout 10s)
+2025-11-08 16:59:48 INFO: Job 55626b22-471a-407f-b2cc-5b755b03e687 completed successfully in 0.08s
+2025-11-08 16:59:48 INFO:  Worker 1 completed job 55626b22-471a-407f-b2cc-5b755b03e687
+2025-11-08 17:00:33 INFO:  Worker 1 picked job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (priority 5)
+2025-11-08 17:00:33 INFO: Executing job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (timeout 4s)
+2025-11-08 17:00:33 INFO: Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:00:33 INFO:  Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 17:00:33 INFO:  Worker 2 picked job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (priority 5)
+2025-11-08 17:00:33 INFO: Executing job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (timeout 4s)
+2025-11-08 17:00:34 INFO: Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:00:34 INFO:  Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 17:00:35 INFO:  Worker 1 picked job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (priority 5)
+2025-11-08 17:00:35 INFO: Executing job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (timeout 4s)
+2025-11-08 17:00:35 INFO: Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:45:58 INFO:  Starting 2 worker(s)
+2025-11-08 17:45:58 INFO:  Worker 1 started
+2025-11-08 17:45:58 INFO:  Worker 1 picked job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 (priority 5)
+2025-11-08 17:45:58 INFO: Executing job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 (timeout 10s)
+2025-11-08 17:45:58 INFO:  Worker 2 started
+2025-11-08 17:45:58 INFO:  Worker 2 picked job df2f317f-5616-4298-b57a-b343e1708700 (priority 5)
+2025-11-08 17:45:58 INFO: Executing job df2f317f-5616-4298-b57a-b343e1708700 (timeout 10s)
+2025-11-08 17:45:58 INFO: Job df2f317f-5616-4298-b57a-b343e1708700 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:45:58 INFO:  Job df2f317f-5616-4298-b57a-b343e1708700 failed ('invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/1)
+2025-11-08 17:45:58 INFO: Job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:45:58 INFO:  Job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 17:46:00 INFO:  Worker 2 picked job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 (priority 5)
+2025-11-08 17:46:00 INFO: Executing job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 (timeout 10s)
+2025-11-08 17:46:00 INFO:  Worker 1 picked job df2f317f-5616-4298-b57a-b343e1708700 (priority 5)
+2025-11-08 17:46:00 INFO: Executing job df2f317f-5616-4298-b57a-b343e1708700 (timeout 10s)
+2025-11-08 17:46:00 INFO: Job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:46:00 INFO:  Job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 17:46:00 INFO: Job df2f317f-5616-4298-b57a-b343e1708700 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:46:00 INFO:  Worker 1 picked job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 (priority 5)
+2025-11-08 17:46:00 INFO: Executing job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 (timeout 10s)
+2025-11-08 17:46:00 INFO: Job 53c6a7cf-e85a-42b9-ba70-b41fd7e74e72 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:46:00 INFO:  Worker 1 picked job bc6b22ea-6230-4223-b762-0ae5d9212f40 (priority 4)
+2025-11-08 17:46:00 INFO: Executing job bc6b22ea-6230-4223-b762-0ae5d9212f40 (timeout 10s)
+2025-11-08 17:46:00 INFO: Job bc6b22ea-6230-4223-b762-0ae5d9212f40 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:46:00 INFO:  Job bc6b22ea-6230-4223-b762-0ae5d9212f40 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 17:46:02 INFO:  Worker 1 picked job bc6b22ea-6230-4223-b762-0ae5d9212f40 (priority 4)
+2025-11-08 17:46:02 INFO: Executing job bc6b22ea-6230-4223-b762-0ae5d9212f40 (timeout 10s)
+2025-11-08 17:46:02 INFO: Job bc6b22ea-6230-4223-b762-0ae5d9212f40 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:46:02 INFO:  Job bc6b22ea-6230-4223-b762-0ae5d9212f40 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 17:46:04 INFO:  Worker 2 picked job bc6b22ea-6230-4223-b762-0ae5d9212f40 (priority 4)
+2025-11-08 17:46:04 INFO: Executing job bc6b22ea-6230-4223-b762-0ae5d9212f40 (timeout 10s)
+2025-11-08 17:46:04 INFO: Job bc6b22ea-6230-4223-b762-0ae5d9212f40 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:46:04 INFO:  Worker 2 picked job bd8eb854-2d44-4592-b389-b56ab724fe52 (priority 3)
+2025-11-08 17:46:04 INFO: Executing job bd8eb854-2d44-4592-b389-b56ab724fe52 (timeout 10s)
+2025-11-08 17:46:04 INFO: Job bd8eb854-2d44-4592-b389-b56ab724fe52 completed successfully in 0.04s
+2025-11-08 17:46:04 INFO:  Worker 2 completed job bd8eb854-2d44-4592-b389-b56ab724fe52
+2025-11-08 17:46:04 INFO:  Worker 2 picked job 4e6ff882-25f3-4d5c-a317-0878b8774a05 (priority 2)
+2025-11-08 17:46:04 INFO: Executing job 4e6ff882-25f3-4d5c-a317-0878b8774a05 (timeout 10s)
+2025-11-08 17:46:04 INFO: Job 4e6ff882-25f3-4d5c-a317-0878b8774a05 completed successfully in 0.04s
+2025-11-08 17:46:04 INFO:  Worker 2 completed job 4e6ff882-25f3-4d5c-a317-0878b8774a05
+2025-11-08 17:46:04 INFO:  Worker 2 picked job 61892dee-b010-4c43-82e8-d1b4f4ec66b4 (priority 2)
+2025-11-08 17:46:04 INFO: Executing job 61892dee-b010-4c43-82e8-d1b4f4ec66b4 (timeout 10s)
+2025-11-08 17:46:04 INFO: Job 61892dee-b010-4c43-82e8-d1b4f4ec66b4 completed successfully in 0.03s
+2025-11-08 17:46:04 INFO:  Worker 2 completed job 61892dee-b010-4c43-82e8-d1b4f4ec66b4
+2025-11-08 17:46:04 INFO:  Worker 2 picked job 7e0efc63-98c5-41a3-95dd-a73a2ba405f7 (priority 1)
+2025-11-08 17:46:04 INFO: Executing job 7e0efc63-98c5-41a3-95dd-a73a2ba405f7 (timeout 10s)
+2025-11-08 17:46:04 INFO: Job 7e0efc63-98c5-41a3-95dd-a73a2ba405f7 completed successfully in 0.04s
+2025-11-08 17:46:04 INFO:  Worker 2 completed job 7e0efc63-98c5-41a3-95dd-a73a2ba405f7
+2025-11-08 17:47:01 INFO:  Worker 2 picked job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (priority 5)
+2025-11-08 17:47:01 INFO: Executing job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (timeout 4s)
+2025-11-08 17:47:01 INFO: Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:47:01 INFO:  Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 17:47:02 INFO:  Worker 1 picked job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (priority 5)
+2025-11-08 17:47:02 INFO: Executing job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (timeout 4s)
+2025-11-08 17:47:02 INFO: Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 17:47:02 INFO:  Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 17:47:04 INFO:  Worker 2 picked job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (priority 5)
+2025-11-08 17:47:04 INFO: Executing job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac (timeout 4s)
+2025-11-08 17:47:04 INFO: Job c95a7ec8-c2b3-4e83-88bd-ae98d80903ac failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:02:14 INFO:  Starting 2 worker(s)
+2025-11-08 18:02:14 INFO:  Worker 1 started
+2025-11-08 18:02:14 INFO:  Worker 1 picked job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 (priority 5)
+2025-11-08 18:02:14 INFO: Executing job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 (timeout 10s)
+2025-11-08 18:02:14 INFO:  Worker 2 started
+2025-11-08 18:02:14 INFO:  Worker 2 picked job 1a94286d-79da-46af-881e-6fecb83541aa (priority 5)
+2025-11-08 18:02:14 INFO: Executing job 1a94286d-79da-46af-881e-6fecb83541aa (timeout 10s)
+2025-11-08 18:02:14 INFO: Job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:02:14 INFO:  Job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 18:02:14 INFO: Job 1a94286d-79da-46af-881e-6fecb83541aa failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:02:14 INFO:  Job 1a94286d-79da-46af-881e-6fecb83541aa failed ('invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/1)
+2025-11-08 18:02:16 INFO:  Worker 1 picked job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 (priority 5)
+2025-11-08 18:02:16 INFO: Executing job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 (timeout 10s)
+2025-11-08 18:02:16 INFO:  Worker 2 picked job 1a94286d-79da-46af-881e-6fecb83541aa (priority 5)
+2025-11-08 18:02:16 INFO: Executing job 1a94286d-79da-46af-881e-6fecb83541aa (timeout 10s)
+2025-11-08 18:02:16 INFO: Job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:02:16 INFO:  Job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 18:02:16 INFO: Job 1a94286d-79da-46af-881e-6fecb83541aa failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:02:16 INFO:  Worker 2 picked job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 (priority 5)
+2025-11-08 18:02:16 INFO: Executing job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 (timeout 10s)
+2025-11-08 18:02:16 INFO: Job 5a169bfb-ba35-46b6-96d5-bba9eadfbe71 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:02:16 INFO:  Worker 2 picked job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 (priority 4)
+2025-11-08 18:02:16 INFO: Executing job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 (timeout 10s)
+2025-11-08 18:02:16 INFO: Job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:02:16 INFO:  Job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 18:02:18 INFO:  Worker 2 picked job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 (priority 4)
+2025-11-08 18:02:18 INFO: Executing job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 (timeout 10s)
+2025-11-08 18:02:18 INFO: Job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:02:18 INFO:  Job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 18:02:20 INFO:  Worker 1 picked job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 (priority 4)
+2025-11-08 18:02:20 INFO: Executing job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 (timeout 10s)
+2025-11-08 18:02:20 INFO: Job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:02:20 INFO:  Worker 1 picked job 4f8771c3-e650-4fd5-8821-eda542295bb5 (priority 3)
+2025-11-08 18:02:20 INFO: Executing job 4f8771c3-e650-4fd5-8821-eda542295bb5 (timeout 10s)
+2025-11-08 18:02:20 INFO: Job 4f8771c3-e650-4fd5-8821-eda542295bb5 completed successfully in 0.04s
+2025-11-08 18:02:20 INFO:  Worker 1 completed job 4f8771c3-e650-4fd5-8821-eda542295bb5
+2025-11-08 18:02:20 INFO:  Worker 1 picked job 65360207-dbe3-474f-a6c4-3d1b2e87bd0e (priority 2)
+2025-11-08 18:02:20 INFO: Executing job 65360207-dbe3-474f-a6c4-3d1b2e87bd0e (timeout 10s)
+2025-11-08 18:02:20 INFO: Job 65360207-dbe3-474f-a6c4-3d1b2e87bd0e completed successfully in 0.04s
+2025-11-08 18:02:20 INFO:  Worker 1 completed job 65360207-dbe3-474f-a6c4-3d1b2e87bd0e
+2025-11-08 18:02:20 INFO:  Worker 1 picked job e4c2c2af-33eb-4739-8751-d426897b1e75 (priority 2)
+2025-11-08 18:02:20 INFO: Executing job e4c2c2af-33eb-4739-8751-d426897b1e75 (timeout 10s)
+2025-11-08 18:02:20 INFO: Job e4c2c2af-33eb-4739-8751-d426897b1e75 completed successfully in 0.03s
+2025-11-08 18:02:20 INFO:  Worker 1 completed job e4c2c2af-33eb-4739-8751-d426897b1e75
+2025-11-08 18:02:20 INFO:  Worker 1 picked job 00b67d63-d936-4c88-ace3-bb07e006859b (priority 1)
+2025-11-08 18:02:20 INFO: Executing job 00b67d63-d936-4c88-ace3-bb07e006859b (timeout 10s)
+2025-11-08 18:02:20 INFO: Job 00b67d63-d936-4c88-ace3-bb07e006859b completed successfully in 0.04s
+2025-11-08 18:02:20 INFO:  Worker 1 completed job 00b67d63-d936-4c88-ace3-bb07e006859b
+2025-11-08 18:03:34 INFO:  Worker 1 picked job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 (priority 4)
+2025-11-08 18:03:34 INFO: Executing job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 (timeout 10s)
+2025-11-08 18:03:34 INFO: Job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:03:34 INFO:  Job 55ef67c0-fbd0-4cd0-bc5c-6a60c55d3602 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 18:12:04 INFO:  Starting 2 worker(s)
+2025-11-08 18:12:04 INFO:  Worker 1 started
+2025-11-08 18:12:04 INFO:  Worker 1 picked job 80a26a8d-0793-4d62-b938-ac1e2c471421 (priority 5)
+2025-11-08 18:12:04 INFO: Executing job 80a26a8d-0793-4d62-b938-ac1e2c471421 (timeout 10s)
+2025-11-08 18:12:04 INFO:  Worker 2 started
+2025-11-08 18:12:04 INFO:  Worker 2 picked job 0d9e25db-0fd5-4b82-9950-191fad88b891 (priority 5)
+2025-11-08 18:12:04 INFO: Executing job 0d9e25db-0fd5-4b82-9950-191fad88b891 (timeout 10s)
+2025-11-08 18:12:04 INFO: Job 80a26a8d-0793-4d62-b938-ac1e2c471421 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:12:04 INFO:  Job 80a26a8d-0793-4d62-b938-ac1e2c471421 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 18:12:04 INFO: Job 0d9e25db-0fd5-4b82-9950-191fad88b891 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:12:04 INFO:  Job 0d9e25db-0fd5-4b82-9950-191fad88b891 failed ('invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/1)
+2025-11-08 18:12:06 INFO:  Worker 1 picked job 80a26a8d-0793-4d62-b938-ac1e2c471421 (priority 5)
+2025-11-08 18:12:06 INFO: Executing job 80a26a8d-0793-4d62-b938-ac1e2c471421 (timeout 10s)
+2025-11-08 18:12:06 INFO:  Worker 2 picked job 0d9e25db-0fd5-4b82-9950-191fad88b891 (priority 5)
+2025-11-08 18:12:06 INFO: Executing job 0d9e25db-0fd5-4b82-9950-191fad88b891 (timeout 10s)
+2025-11-08 18:12:06 INFO: Job 80a26a8d-0793-4d62-b938-ac1e2c471421 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:12:06 INFO:  Job 80a26a8d-0793-4d62-b938-ac1e2c471421 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 18:12:06 INFO: Job 0d9e25db-0fd5-4b82-9950-191fad88b891 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:12:06 INFO:  Worker 2 picked job 80a26a8d-0793-4d62-b938-ac1e2c471421 (priority 5)
+2025-11-08 18:12:06 INFO: Executing job 80a26a8d-0793-4d62-b938-ac1e2c471421 (timeout 10s)
+2025-11-08 18:12:06 INFO: Job 80a26a8d-0793-4d62-b938-ac1e2c471421 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:12:06 INFO:  Worker 2 picked job 4df611c1-ecae-43e3-850c-64800ef571d8 (priority 4)
+2025-11-08 18:12:06 INFO: Executing job 4df611c1-ecae-43e3-850c-64800ef571d8 (timeout 10s)
+2025-11-08 18:12:06 INFO: Job 4df611c1-ecae-43e3-850c-64800ef571d8 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:12:06 INFO:  Job 4df611c1-ecae-43e3-850c-64800ef571d8 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 18:12:08 INFO:  Worker 2 picked job 4df611c1-ecae-43e3-850c-64800ef571d8 (priority 4)
+2025-11-08 18:12:08 INFO: Executing job 4df611c1-ecae-43e3-850c-64800ef571d8 (timeout 10s)
+2025-11-08 18:12:08 INFO: Job 4df611c1-ecae-43e3-850c-64800ef571d8 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:12:08 INFO:  Job 4df611c1-ecae-43e3-850c-64800ef571d8 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 18:12:10 INFO:  Worker 1 picked job 4df611c1-ecae-43e3-850c-64800ef571d8 (priority 4)
+2025-11-08 18:12:10 INFO: Executing job 4df611c1-ecae-43e3-850c-64800ef571d8 (timeout 10s)
+2025-11-08 18:12:10 INFO: Job 4df611c1-ecae-43e3-850c-64800ef571d8 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:12:10 INFO:  Worker 1 picked job 9b50f2de-f24c-4c90-a823-b4d5712b7b3d (priority 3)
+2025-11-08 18:12:10 INFO: Executing job 9b50f2de-f24c-4c90-a823-b4d5712b7b3d (timeout 10s)
+2025-11-08 18:12:10 INFO: Job 9b50f2de-f24c-4c90-a823-b4d5712b7b3d completed successfully in 0.04s
+2025-11-08 18:12:10 INFO:  Worker 1 completed job 9b50f2de-f24c-4c90-a823-b4d5712b7b3d
+2025-11-08 18:12:10 INFO:  Worker 1 picked job 9589a69e-d836-4c15-b7d7-75ebb021da8a (priority 2)
+2025-11-08 18:12:10 INFO: Executing job 9589a69e-d836-4c15-b7d7-75ebb021da8a (timeout 10s)
+2025-11-08 18:12:10 INFO: Job 9589a69e-d836-4c15-b7d7-75ebb021da8a completed successfully in 0.05s
+2025-11-08 18:12:10 INFO:  Worker 1 completed job 9589a69e-d836-4c15-b7d7-75ebb021da8a
+2025-11-08 18:12:10 INFO:  Worker 1 picked job 5da5a71d-b206-450e-b8c7-6521935090e1 (priority 2)
+2025-11-08 18:12:10 INFO: Executing job 5da5a71d-b206-450e-b8c7-6521935090e1 (timeout 10s)
+2025-11-08 18:12:10 INFO: Job 5da5a71d-b206-450e-b8c7-6521935090e1 completed successfully in 0.03s
+2025-11-08 18:12:10 INFO:  Worker 1 completed job 5da5a71d-b206-450e-b8c7-6521935090e1
+2025-11-08 18:12:10 INFO:  Worker 1 picked job 89c9d655-0361-48be-932c-54270d54aa14 (priority 1)
+2025-11-08 18:12:10 INFO: Executing job 89c9d655-0361-48be-932c-54270d54aa14 (timeout 10s)
+2025-11-08 18:12:10 INFO: Job 89c9d655-0361-48be-932c-54270d54aa14 completed successfully in 0.03s
+2025-11-08 18:12:10 INFO:  Worker 1 completed job 89c9d655-0361-48be-932c-54270d54aa14
+2025-11-08 18:13:06 INFO:  Worker 1 picked job 80a26a8d-0793-4d62-b938-ac1e2c471421 (priority 5)
+2025-11-08 18:13:06 INFO: Executing job 80a26a8d-0793-4d62-b938-ac1e2c471421 (timeout 10s)
+2025-11-08 18:13:06 INFO: Job 80a26a8d-0793-4d62-b938-ac1e2c471421 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:13:06 INFO:  Job 80a26a8d-0793-4d62-b938-ac1e2c471421 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 18:13:06 INFO:  Worker 2 picked job 80a26a8d-0793-4d62-b938-ac1e2c471421 (priority 5)
+2025-11-08 18:13:06 INFO: Executing job 80a26a8d-0793-4d62-b938-ac1e2c471421 (timeout 10s)
+2025-11-08 18:13:06 INFO: Job 80a26a8d-0793-4d62-b938-ac1e2c471421 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:13:06 INFO:  Job 80a26a8d-0793-4d62-b938-ac1e2c471421 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 18:13:08 INFO:  Worker 1 picked job 80a26a8d-0793-4d62-b938-ac1e2c471421 (priority 5)
+2025-11-08 18:13:08 INFO: Executing job 80a26a8d-0793-4d62-b938-ac1e2c471421 (timeout 10s)
+2025-11-08 18:13:08 INFO: Job 80a26a8d-0793-4d62-b938-ac1e2c471421 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:35:56 INFO:  Starting 2 worker(s)
+2025-11-08 18:35:56 INFO:  Worker 1 started
+2025-11-08 18:35:56 INFO:  Worker 1 picked job 81283ed5-4746-4c91-af0b-5540fcddb528 (priority 5)
+2025-11-08 18:35:56 INFO: Executing job 81283ed5-4746-4c91-af0b-5540fcddb528 (timeout 10s)
+2025-11-08 18:35:56 INFO:  Worker 2 started
+2025-11-08 18:35:56 INFO:  Worker 2 picked job fe106aa5-dc33-4eab-98d5-1d1f8ab8d2f4 (priority 5)
+2025-11-08 18:35:56 INFO: Executing job fe106aa5-dc33-4eab-98d5-1d1f8ab8d2f4 (timeout 10s)
+2025-11-08 18:35:56 INFO: Job fe106aa5-dc33-4eab-98d5-1d1f8ab8d2f4 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:35:56 INFO:  Job fe106aa5-dc33-4eab-98d5-1d1f8ab8d2f4 failed ('invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/1)
+2025-11-08 18:35:56 INFO: Job 81283ed5-4746-4c91-af0b-5540fcddb528 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:35:56 INFO:  Job 81283ed5-4746-4c91-af0b-5540fcddb528 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 18:35:58 INFO:  Worker 2 picked job 81283ed5-4746-4c91-af0b-5540fcddb528 (priority 5)
+2025-11-08 18:35:58 INFO: Executing job 81283ed5-4746-4c91-af0b-5540fcddb528 (timeout 10s)
+2025-11-08 18:35:58 INFO:  Worker 1 picked job fe106aa5-dc33-4eab-98d5-1d1f8ab8d2f4 (priority 5)
+2025-11-08 18:35:58 INFO: Executing job fe106aa5-dc33-4eab-98d5-1d1f8ab8d2f4 (timeout 10s)
+2025-11-08 18:35:58 INFO: Job 81283ed5-4746-4c91-af0b-5540fcddb528 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:35:58 INFO:  Job 81283ed5-4746-4c91-af0b-5540fcddb528 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 18:35:58 INFO: Job fe106aa5-dc33-4eab-98d5-1d1f8ab8d2f4 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:35:58 INFO:  Worker 1 picked job 81283ed5-4746-4c91-af0b-5540fcddb528 (priority 5)
+2025-11-08 18:35:58 INFO: Executing job 81283ed5-4746-4c91-af0b-5540fcddb528 (timeout 10s)
+2025-11-08 18:35:58 INFO: Job 81283ed5-4746-4c91-af0b-5540fcddb528 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:35:58 INFO:  Worker 1 picked job fae837a3-7823-4ba6-a352-f48879a63876 (priority 4)
+2025-11-08 18:35:58 INFO: Executing job fae837a3-7823-4ba6-a352-f48879a63876 (timeout 10s)
+2025-11-08 18:35:58 INFO: Job fae837a3-7823-4ba6-a352-f48879a63876 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:35:58 INFO:  Job fae837a3-7823-4ba6-a352-f48879a63876 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-08 18:36:00 INFO:  Worker 1 picked job fae837a3-7823-4ba6-a352-f48879a63876 (priority 4)
+2025-11-08 18:36:00 INFO: Executing job fae837a3-7823-4ba6-a352-f48879a63876 (timeout 10s)
+2025-11-08 18:36:00 INFO: Job fae837a3-7823-4ba6-a352-f48879a63876 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:36:00 INFO:  Job fae837a3-7823-4ba6-a352-f48879a63876 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-08 18:36:02 INFO:  Worker 2 picked job fae837a3-7823-4ba6-a352-f48879a63876 (priority 4)
+2025-11-08 18:36:02 INFO: Executing job fae837a3-7823-4ba6-a352-f48879a63876 (timeout 10s)
+2025-11-08 18:36:02 INFO: Job fae837a3-7823-4ba6-a352-f48879a63876 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-08 18:36:02 INFO:  Worker 2 picked job 7fa3f0d9-8abf-4e12-ba6d-a1e11e017038 (priority 3)
+2025-11-08 18:36:02 INFO: Executing job 7fa3f0d9-8abf-4e12-ba6d-a1e11e017038 (timeout 10s)
+2025-11-08 18:36:02 INFO: Job 7fa3f0d9-8abf-4e12-ba6d-a1e11e017038 completed successfully in 0.03s
+2025-11-08 18:36:02 INFO:  Worker 2 completed job 7fa3f0d9-8abf-4e12-ba6d-a1e11e017038
+2025-11-08 18:36:02 INFO:  Worker 2 picked job 8c4bebf8-cef0-4ca6-a4db-14555a615002 (priority 2)
+2025-11-08 18:36:02 INFO: Executing job 8c4bebf8-cef0-4ca6-a4db-14555a615002 (timeout 10s)
+2025-11-08 18:36:02 INFO: Job 8c4bebf8-cef0-4ca6-a4db-14555a615002 completed successfully in 0.03s
+2025-11-08 18:36:02 INFO:  Worker 2 completed job 8c4bebf8-cef0-4ca6-a4db-14555a615002
+2025-11-08 18:36:02 INFO:  Worker 2 picked job d9403e62-9115-4d11-ad2e-1f63479ad816 (priority 2)
+2025-11-08 18:36:02 INFO: Executing job d9403e62-9115-4d11-ad2e-1f63479ad816 (timeout 10s)
+2025-11-08 18:36:02 INFO: Job d9403e62-9115-4d11-ad2e-1f63479ad816 completed successfully in 0.04s
+2025-11-08 18:36:02 INFO:  Worker 2 completed job d9403e62-9115-4d11-ad2e-1f63479ad816
+2025-11-08 18:36:02 INFO:  Worker 2 picked job 54e1d802-954e-437a-9ac6-de5f722584f3 (priority 1)
+2025-11-08 18:36:02 INFO: Executing job 54e1d802-954e-437a-9ac6-de5f722584f3 (timeout 10s)
+2025-11-08 18:36:02 INFO: Job 54e1d802-954e-437a-9ac6-de5f722584f3 completed successfully in 0.04s
+2025-11-08 18:36:02 INFO:  Worker 2 completed job 54e1d802-954e-437a-9ac6-de5f722584f3
+2025-11-09 17:36:25 INFO:  Starting 2 worker(s)
+2025-11-09 17:36:25 INFO:  Worker 1 started
+2025-11-09 17:36:25 INFO:  Worker 1 picked job 5e4940c1-75b6-45e6-b34c-adccadf44868 (priority 5)
+2025-11-09 17:36:25 INFO: Executing job 5e4940c1-75b6-45e6-b34c-adccadf44868 (timeout 10s)
+2025-11-09 17:36:25 INFO:  Worker 2 started
+2025-11-09 17:36:25 INFO:  Worker 2 picked job 4ed210e2-28ba-497b-9fd0-bed5d891d8b5 (priority 5)
+2025-11-09 17:36:25 INFO: Executing job 4ed210e2-28ba-497b-9fd0-bed5d891d8b5 (timeout 10s)
+2025-11-09 17:36:25 INFO: Job 5e4940c1-75b6-45e6-b34c-adccadf44868 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:36:25 INFO:  Job 5e4940c1-75b6-45e6-b34c-adccadf44868 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-09 17:36:25 INFO: Job 4ed210e2-28ba-497b-9fd0-bed5d891d8b5 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:36:25 INFO:  Job 4ed210e2-28ba-497b-9fd0-bed5d891d8b5 failed ('invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/1)
+2025-11-09 17:36:27 INFO:  Worker 1 picked job 4ed210e2-28ba-497b-9fd0-bed5d891d8b5 (priority 5)
+2025-11-09 17:36:27 INFO: Executing job 4ed210e2-28ba-497b-9fd0-bed5d891d8b5 (timeout 10s)
+2025-11-09 17:36:27 INFO:  Worker 2 picked job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 (priority 4)
+2025-11-09 17:36:27 INFO: Executing job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 (timeout 10s)
+2025-11-09 17:36:27 INFO: Job 4ed210e2-28ba-497b-9fd0-bed5d891d8b5 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:36:27 INFO:  Worker 1 picked job f16df848-537b-44b8-a179-ec37a684a64b (priority 3)
+2025-11-09 17:36:27 INFO: Executing job f16df848-537b-44b8-a179-ec37a684a64b (timeout 10s)
+2025-11-09 17:36:27 INFO: Job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:36:27 INFO:  Job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-09 17:36:28 INFO: Job f16df848-537b-44b8-a179-ec37a684a64b completed successfully in 0.06s
+2025-11-09 17:36:28 INFO:  Worker 1 completed job f16df848-537b-44b8-a179-ec37a684a64b
+2025-11-09 17:36:28 INFO:  Worker 1 picked job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 (priority 4)
+2025-11-09 17:36:28 INFO: Executing job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 (timeout 10s)
+2025-11-09 17:36:28 INFO: Job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:36:28 INFO:  Job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-09 17:36:30 INFO:  Worker 2 picked job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 (priority 4)
+2025-11-09 17:36:30 INFO: Executing job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 (timeout 10s)
+2025-11-09 17:36:30 INFO: Job a6534fa9-c650-4b76-9b6c-4ba6eacf6a42 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:36:30 INFO:  Worker 2 picked job 5bd90587-b0f9-496b-ad92-8f30927a81d7 (priority 2)
+2025-11-09 17:36:30 INFO: Executing job 5bd90587-b0f9-496b-ad92-8f30927a81d7 (timeout 10s)
+2025-11-09 17:36:30 INFO: Job 5bd90587-b0f9-496b-ad92-8f30927a81d7 completed successfully in 0.07s
+2025-11-09 17:36:30 INFO:  Worker 2 completed job 5bd90587-b0f9-496b-ad92-8f30927a81d7
+2025-11-09 17:36:30 INFO:  Worker 2 picked job c451275f-d322-4ef6-8de5-1d987ff777f8 (priority 2)
+2025-11-09 17:36:30 INFO: Executing job c451275f-d322-4ef6-8de5-1d987ff777f8 (timeout 10s)
+2025-11-09 17:36:30 INFO: Job c451275f-d322-4ef6-8de5-1d987ff777f8 completed successfully in 0.07s
+2025-11-09 17:36:30 INFO:  Worker 2 completed job c451275f-d322-4ef6-8de5-1d987ff777f8
+2025-11-09 17:36:30 INFO:  Worker 2 picked job 6e7fc64e-3226-43ec-843a-512288011403 (priority 1)
+2025-11-09 17:36:30 INFO: Executing job 6e7fc64e-3226-43ec-843a-512288011403 (timeout 10s)
+2025-11-09 17:36:30 INFO: Job 6e7fc64e-3226-43ec-843a-512288011403 completed successfully in 0.08s
+2025-11-09 17:36:30 INFO:  Worker 2 completed job 6e7fc64e-3226-43ec-843a-512288011403
+2025-11-09 17:43:54 INFO:  Starting 2 worker(s)
+2025-11-09 17:43:54 INFO:  Worker 1 started
+2025-11-09 17:43:54 INFO:  Worker 1 picked job 4ba74904-6648-4371-bc78-3ca95b61ba74 (priority 5)
+2025-11-09 17:43:54 INFO: Executing job 4ba74904-6648-4371-bc78-3ca95b61ba74 (timeout 10s)
+2025-11-09 17:43:54 INFO:  Worker 2 started
+2025-11-09 17:43:54 INFO:  Worker 2 picked job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 (priority 5)
+2025-11-09 17:43:54 INFO: Executing job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 (timeout 10s)
+2025-11-09 17:43:54 INFO: Job 4ba74904-6648-4371-bc78-3ca95b61ba74 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:43:54 INFO:  Job 4ba74904-6648-4371-bc78-3ca95b61ba74 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-09 17:43:54 INFO: Job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:43:54 INFO:  Job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 failed ('invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/1)
+2025-11-09 17:43:56 INFO:  Worker 1 picked job 4ba74904-6648-4371-bc78-3ca95b61ba74 (priority 5)
+2025-11-09 17:43:56 INFO: Executing job 4ba74904-6648-4371-bc78-3ca95b61ba74 (timeout 10s)
+2025-11-09 17:43:56 INFO:  Worker 2 picked job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 (priority 5)
+2025-11-09 17:43:56 INFO: Executing job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 (timeout 10s)
+2025-11-09 17:43:56 INFO: Job 4ba74904-6648-4371-bc78-3ca95b61ba74 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:43:56 INFO:  Job 4ba74904-6648-4371-bc78-3ca95b61ba74 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-09 17:43:56 INFO: Job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:43:56 INFO:  Worker 2 picked job 4ba74904-6648-4371-bc78-3ca95b61ba74 (priority 5)
+2025-11-09 17:43:56 INFO: Executing job 4ba74904-6648-4371-bc78-3ca95b61ba74 (timeout 10s)
+2025-11-09 17:43:56 INFO: Job 4ba74904-6648-4371-bc78-3ca95b61ba74 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:43:56 INFO:  Worker 2 picked job 8cff94dc-6787-46ec-b932-48e644b807d3 (priority 4)
+2025-11-09 17:43:56 INFO: Executing job 8cff94dc-6787-46ec-b932-48e644b807d3 (timeout 10s)
+2025-11-09 17:43:56 INFO: Job 8cff94dc-6787-46ec-b932-48e644b807d3 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:43:56 INFO:  Job 8cff94dc-6787-46ec-b932-48e644b807d3 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-09 17:43:58 INFO:  Worker 2 picked job 8cff94dc-6787-46ec-b932-48e644b807d3 (priority 4)
+2025-11-09 17:43:58 INFO: Executing job 8cff94dc-6787-46ec-b932-48e644b807d3 (timeout 10s)
+2025-11-09 17:43:58 INFO: Job 8cff94dc-6787-46ec-b932-48e644b807d3 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:43:58 INFO:  Job 8cff94dc-6787-46ec-b932-48e644b807d3 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-09 17:44:00 INFO:  Worker 1 picked job 8aa6b592-b037-444c-a698-4e0869816c47 (priority 3)
+2025-11-09 17:44:00 INFO: Executing job 8aa6b592-b037-444c-a698-4e0869816c47 (timeout 10s)
+2025-11-09 17:44:00 INFO: Job 8aa6b592-b037-444c-a698-4e0869816c47 completed successfully in 0.05s
+2025-11-09 17:44:00 INFO:  Worker 1 completed job 8aa6b592-b037-444c-a698-4e0869816c47
+2025-11-09 17:44:00 INFO:  Worker 1 picked job e7fa2bf7-95fc-4810-989c-b83e514c830e (priority 2)
+2025-11-09 17:44:00 INFO: Executing job e7fa2bf7-95fc-4810-989c-b83e514c830e (timeout 10s)
+2025-11-09 17:44:00 INFO: Job e7fa2bf7-95fc-4810-989c-b83e514c830e completed successfully in 0.05s
+2025-11-09 17:44:00 INFO:  Worker 1 completed job e7fa2bf7-95fc-4810-989c-b83e514c830e
+2025-11-09 17:44:00 INFO:  Worker 1 picked job a6c12a07-96a7-45ea-a65d-00d260064a55 (priority 2)
+2025-11-09 17:44:00 INFO: Executing job a6c12a07-96a7-45ea-a65d-00d260064a55 (timeout 10s)
+2025-11-09 17:44:00 INFO: Job a6c12a07-96a7-45ea-a65d-00d260064a55 completed successfully in 0.05s
+2025-11-09 17:44:00 INFO:  Worker 1 completed job a6c12a07-96a7-45ea-a65d-00d260064a55
+2025-11-09 17:44:00 INFO:  Worker 1 picked job 7f2981d8-19d9-47f1-8120-daf70c56007d (priority 1)
+2025-11-09 17:44:00 INFO: Executing job 7f2981d8-19d9-47f1-8120-daf70c56007d (timeout 10s)
+2025-11-09 17:44:00 INFO: Job 7f2981d8-19d9-47f1-8120-daf70c56007d completed successfully in 0.06s
+2025-11-09 17:44:00 INFO:  Worker 1 completed job 7f2981d8-19d9-47f1-8120-daf70c56007d
+2025-11-09 17:46:14 INFO:  Worker 1 picked job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 (priority 5)
+2025-11-09 17:46:14 INFO: Executing job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 (timeout 10s)
+2025-11-09 17:46:14 INFO: Job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:46:14 INFO:  Job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 failed ('invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/1)
+2025-11-09 17:46:14 INFO:  Worker 2 picked job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 (priority 5)
+2025-11-09 17:46:14 INFO: Executing job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 (timeout 10s)
+2025-11-09 17:46:15 INFO: Job eaea1f84-302f-43b3-b8d4-5cc1cb7a57c5 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:51:23 INFO:  Starting 2 worker(s)
+2025-11-09 17:51:23 INFO:  Worker 1 started
+2025-11-09 17:51:23 INFO:  Worker 1 picked job 161595c6-88a7-43ea-996d-f71c2b863a7f (priority 5)
+2025-11-09 17:51:23 INFO: Executing job 161595c6-88a7-43ea-996d-f71c2b863a7f (timeout 10s)
+2025-11-09 17:51:23 INFO:  Worker 2 started
+2025-11-09 17:51:23 INFO:  Worker 2 picked job b18ac17c-9c8a-4c5c-a9b0-fe36bab28145 (priority 5)
+2025-11-09 17:51:23 INFO: Executing job b18ac17c-9c8a-4c5c-a9b0-fe36bab28145 (timeout 10s)
+2025-11-09 17:51:23 INFO: Job 161595c6-88a7-43ea-996d-f71c2b863a7f failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:51:23 INFO:  Job 161595c6-88a7-43ea-996d-f71c2b863a7f failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-09 17:51:23 INFO: Job b18ac17c-9c8a-4c5c-a9b0-fe36bab28145 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:51:23 INFO:  Job b18ac17c-9c8a-4c5c-a9b0-fe36bab28145 failed ('invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/1)
+2025-11-09 17:51:25 INFO:  Worker 1 picked job 161595c6-88a7-43ea-996d-f71c2b863a7f (priority 5)
+2025-11-09 17:51:25 INFO: Executing job 161595c6-88a7-43ea-996d-f71c2b863a7f (timeout 10s)
+2025-11-09 17:51:25 INFO:  Worker 2 picked job b18ac17c-9c8a-4c5c-a9b0-fe36bab28145 (priority 5)
+2025-11-09 17:51:25 INFO: Executing job b18ac17c-9c8a-4c5c-a9b0-fe36bab28145 (timeout 10s)
+2025-11-09 17:51:26 INFO: Job 161595c6-88a7-43ea-996d-f71c2b863a7f failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:51:26 INFO:  Job 161595c6-88a7-43ea-996d-f71c2b863a7f failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-09 17:51:26 INFO: Job b18ac17c-9c8a-4c5c-a9b0-fe36bab28145 failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:51:26 INFO:  Worker 2 picked job 161595c6-88a7-43ea-996d-f71c2b863a7f (priority 5)
+2025-11-09 17:51:26 INFO: Executing job 161595c6-88a7-43ea-996d-f71c2b863a7f (timeout 10s)
+2025-11-09 17:51:26 INFO: Job 161595c6-88a7-43ea-996d-f71c2b863a7f failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:51:26 INFO:  Worker 2 picked job cb95abf5-5484-4ad0-ade7-d819c27a11c9 (priority 4)
+2025-11-09 17:51:26 INFO: Executing job cb95abf5-5484-4ad0-ade7-d819c27a11c9 (timeout 10s)
+2025-11-09 17:51:26 INFO: Job cb95abf5-5484-4ad0-ade7-d819c27a11c9 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:51:26 INFO:  Job cb95abf5-5484-4ad0-ade7-d819c27a11c9 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-09 17:51:28 INFO:  Worker 2 picked job cb95abf5-5484-4ad0-ade7-d819c27a11c9 (priority 4)
+2025-11-09 17:51:28 INFO: Executing job cb95abf5-5484-4ad0-ade7-d819c27a11c9 (timeout 10s)
+2025-11-09 17:51:28 INFO: Job cb95abf5-5484-4ad0-ade7-d819c27a11c9 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:51:28 INFO:  Job cb95abf5-5484-4ad0-ade7-d819c27a11c9 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-09 17:51:30 INFO:  Worker 1 picked job cb95abf5-5484-4ad0-ade7-d819c27a11c9 (priority 4)
+2025-11-09 17:51:30 INFO: Executing job cb95abf5-5484-4ad0-ade7-d819c27a11c9 (timeout 10s)
+2025-11-09 17:51:30 INFO: Job cb95abf5-5484-4ad0-ade7-d819c27a11c9 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:51:30 INFO:  Worker 1 picked job ada7c8b3-d385-488e-adda-3b7092bfae20 (priority 3)
+2025-11-09 17:51:30 INFO: Executing job ada7c8b3-d385-488e-adda-3b7092bfae20 (timeout 10s)
+2025-11-09 17:51:30 INFO: Job ada7c8b3-d385-488e-adda-3b7092bfae20 completed successfully in 0.04s
+2025-11-09 17:51:30 INFO:  Worker 1 completed job ada7c8b3-d385-488e-adda-3b7092bfae20
+2025-11-09 17:51:30 INFO:  Worker 1 picked job b514030b-596c-4c39-be4b-0aec333052ae (priority 2)
+2025-11-09 17:51:30 INFO: Executing job b514030b-596c-4c39-be4b-0aec333052ae (timeout 10s)
+2025-11-09 17:51:30 INFO: Job b514030b-596c-4c39-be4b-0aec333052ae completed successfully in 0.04s
+2025-11-09 17:51:30 INFO:  Worker 1 completed job b514030b-596c-4c39-be4b-0aec333052ae
+2025-11-09 17:51:30 INFO:  Worker 1 picked job 13aa5bb6-4c4e-4aa1-b269-14381e939104 (priority 2)
+2025-11-09 17:51:30 INFO: Executing job 13aa5bb6-4c4e-4aa1-b269-14381e939104 (timeout 10s)
+2025-11-09 17:51:30 INFO: Job 13aa5bb6-4c4e-4aa1-b269-14381e939104 completed successfully in 0.04s
+2025-11-09 17:51:30 INFO:  Worker 1 completed job 13aa5bb6-4c4e-4aa1-b269-14381e939104
+2025-11-09 17:51:30 INFO:  Worker 1 picked job 2d687abe-473a-456d-a79b-2d3604fe47b9 (priority 1)
+2025-11-09 17:51:30 INFO: Executing job 2d687abe-473a-456d-a79b-2d3604fe47b9 (timeout 10s)
+2025-11-09 17:51:30 INFO: Job 2d687abe-473a-456d-a79b-2d3604fe47b9 completed successfully in 0.04s
+2025-11-09 17:51:30 INFO:  Worker 1 completed job 2d687abe-473a-456d-a79b-2d3604fe47b9
+2025-11-09 17:57:53 INFO:  Starting 2 worker(s)
+2025-11-09 17:57:53 INFO:  Worker 1 started
+2025-11-09 17:57:53 INFO:  Worker 1 picked job ecf0bd98-8d6c-492a-ba56-9520e59b9069 (priority 5)
+2025-11-09 17:57:53 INFO: Executing job ecf0bd98-8d6c-492a-ba56-9520e59b9069 (timeout 10s)
+2025-11-09 17:57:53 INFO:  Worker 2 started
+2025-11-09 17:57:53 INFO:  Worker 2 picked job 4ff45002-a61f-41f4-8a0e-4af76c75e30e (priority 5)
+2025-11-09 17:57:53 INFO: Executing job 4ff45002-a61f-41f4-8a0e-4af76c75e30e (timeout 10s)
+2025-11-09 17:57:53 INFO: Job ecf0bd98-8d6c-492a-ba56-9520e59b9069 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:57:53 INFO:  Job ecf0bd98-8d6c-492a-ba56-9520e59b9069 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-09 17:57:53 INFO: Job 4ff45002-a61f-41f4-8a0e-4af76c75e30e failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:57:53 INFO:  Job 4ff45002-a61f-41f4-8a0e-4af76c75e30e failed ('invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/1)
+2025-11-09 17:57:55 INFO:  Worker 1 picked job ecf0bd98-8d6c-492a-ba56-9520e59b9069 (priority 5)
+2025-11-09 17:57:55 INFO: Executing job ecf0bd98-8d6c-492a-ba56-9520e59b9069 (timeout 10s)
+2025-11-09 17:57:55 INFO:  Worker 2 picked job 4ff45002-a61f-41f4-8a0e-4af76c75e30e (priority 5)
+2025-11-09 17:57:55 INFO: Executing job 4ff45002-a61f-41f4-8a0e-4af76c75e30e (timeout 10s)
+2025-11-09 17:57:55 INFO: Job ecf0bd98-8d6c-492a-ba56-9520e59b9069 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:57:55 INFO:  Job ecf0bd98-8d6c-492a-ba56-9520e59b9069 failed ('not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-09 17:57:55 INFO: Job 4ff45002-a61f-41f4-8a0e-4af76c75e30e failed: 'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:57:55 INFO:  Worker 2 picked job ecf0bd98-8d6c-492a-ba56-9520e59b9069 (priority 5)
+2025-11-09 17:57:55 INFO: Executing job ecf0bd98-8d6c-492a-ba56-9520e59b9069 (timeout 10s)
+2025-11-09 17:57:55 INFO: Job ecf0bd98-8d6c-492a-ba56-9520e59b9069 failed: 'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:57:55 INFO:  Worker 2 picked job 58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4 (priority 4)
+2025-11-09 17:57:55 INFO: Executing job 58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4 (timeout 10s)
+2025-11-09 17:57:55 INFO: Job 58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:57:55 INFO:  Job 58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 2000ms (attempt 1/2)
+2025-11-09 17:57:57 INFO:  Worker 2 picked job 58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4 (priority 4)
+2025-11-09 17:57:57 INFO: Executing job 58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4 (timeout 10s)
+2025-11-09 17:57:57 INFO: Job 58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4 failed: 'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-11-09 17:57:57 INFO:  Job 58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4 failed ('unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+). Retrying in 4000ms (attempt 2/2)
+2025-11-09 17:57:59 INFO:  Worker 1 picked job bf5de668-fb32-428e-bf03-092f4b869a7f (priority 3)
+2025-11-09 17:57:59 INFO: Executing job bf5de668-fb32-428e-bf03-092f4b869a7f (timeout 10s)
+2025-11-09 17:57:59 INFO: Job bf5de668-fb32-428e-bf03-092f4b869a7f completed successfully in 0.06s
+2025-11-09 17:57:59 INFO:  Worker 1 completed job bf5de668-fb32-428e-bf03-092f4b869a7f
+2025-11-09 17:57:59 INFO:  Worker 1 picked job f782e732-cbc1-4f4e-8267-11684acbccd0 (priority 2)
+2025-11-09 17:57:59 INFO: Executing job f782e732-cbc1-4f4e-8267-11684acbccd0 (timeout 10s)
+2025-11-09 17:57:59 INFO: Job f782e732-cbc1-4f4e-8267-11684acbccd0 completed successfully in 0.09s
+2025-11-09 17:57:59 INFO:  Worker 1 completed job f782e732-cbc1-4f4e-8267-11684acbccd0
+2025-11-09 17:57:59 INFO:  Worker 1 picked job 158e9219-0274-470f-ad6e-eb486fb52725 (priority 2)
+2025-11-09 17:57:59 INFO: Executing job 158e9219-0274-470f-ad6e-eb486fb52725 (timeout 10s)
+2025-11-09 17:57:59 INFO: Job 158e9219-0274-470f-ad6e-eb486fb52725 completed successfully in 0.06s
+2025-11-09 17:57:59 INFO:  Worker 1 completed job 158e9219-0274-470f-ad6e-eb486fb52725
+2025-11-09 17:57:59 INFO:  Worker 1 picked job 6ad5e47e-5b38-4de6-808d-5aacef91ee95 (priority 1)
+2025-11-09 17:57:59 INFO: Executing job 6ad5e47e-5b38-4de6-808d-5aacef91ee95 (timeout 10s)
+2025-11-09 17:57:59 INFO: Job 6ad5e47e-5b38-4de6-808d-5aacef91ee95 completed successfully in 0.06s
+2025-11-09 17:57:59 INFO:  Worker 1 completed job 6ad5e47e-5b38-4de6-808d-5aacef91ee95

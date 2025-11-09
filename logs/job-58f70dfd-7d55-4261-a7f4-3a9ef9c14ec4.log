@@ -1,0 +1,38 @@
+=== JOB 58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4 | START: 2025-11-09T12:27:55.675Z | END: 2025-11-09T12:27:55.723Z ===
+
+COMMAND: unknown_command_test
+
+DURATION: 0.05s
+
+STDOUT:
+(empty)
+
+STDERR:
+'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: unknown_command_test
+'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+=== JOB 58f70dfd-7d55-4261-a7f4-3a9ef9c14ec4 | START: 2025-11-09T12:27:57.733Z | END: 2025-11-09T12:27:57.788Z ===
+
+COMMAND: unknown_command_test
+
+DURATION: 0.06s
+
+STDOUT:
+(empty)
+
+STDERR:
+'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: unknown_command_test
+'unknown_command_test' is not recognized as an internal or external command,
+operable program or batch file.
+
+

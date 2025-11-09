@@ -1,0 +1,19 @@
+=== JOB 5e4940c1-75b6-45e6-b34c-adccadf44868 | START: 2025-11-09T12:06:25.739Z | END: 2025-11-09T12:06:25.820Z ===
+
+COMMAND: not_a_real_command
+
+DURATION: 0.08s
+
+STDOUT:
+(empty)
+
+STDERR:
+'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: not_a_real_command
+'not_a_real_command' is not recognized as an internal or external command,
+operable program or batch file.
+
+

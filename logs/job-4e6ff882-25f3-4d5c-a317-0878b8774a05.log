@@ -1,0 +1,15 @@
+=== JOB 4e6ff882-25f3-4d5c-a317-0878b8774a05 | START: 2025-11-08T12:16:04.472Z | END: 2025-11-08T12:16:04.508Z ===
+
+COMMAND: echo 'Job 1: Hello from QueueCTL!'
+
+DURATION: 0.04s
+
+STDOUT:
+'Job 1: Hello from QueueCTL!'
+
+
+STDERR:
+(empty)
+
+
+

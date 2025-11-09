@@ -1,0 +1,38 @@
+=== JOB 1a94286d-79da-46af-881e-6fecb83541aa | START: 2025-11-08T12:32:14.470Z | END: 2025-11-08T12:32:14.506Z ===
+
+COMMAND: invalid_script_run
+
+DURATION: 0.04s
+
+STDOUT:
+(empty)
+
+STDERR:
+'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: invalid_script_run
+'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+=== JOB 1a94286d-79da-46af-881e-6fecb83541aa | START: 2025-11-08T12:32:16.518Z | END: 2025-11-08T12:32:16.553Z ===
+
+COMMAND: invalid_script_run
+
+DURATION: 0.04s
+
+STDOUT:
+(empty)
+
+STDERR:
+'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+ERROR: Command failed: invalid_script_run
+'invalid_script_run' is not recognized as an internal or external command,
+operable program or batch file.
+
+

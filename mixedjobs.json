@@ -1,0 +1,37 @@
+[
+  {
+    "command": "echo 'Job 1: Hello from QueueCTL!'",
+    "max_retries": 3,
+    "priority": 2
+  },
+  {
+    "command": "not_a_real_command",
+    "max_retries": 2,
+    "priority": 5
+  },
+  {
+    "command": "echo 'Job 2: Simulating background process...'",
+    "max_retries": 3,
+    "priority": 3
+  },
+  {
+    "command": "dir",
+    "max_retries": 2,
+    "priority": 1
+  },
+  {
+    "command": "unknown_command_test",
+    "max_retries": 2,
+    "priority": 4
+  },
+  {
+    "command": "echo 'Job 3: Data processing complete!'",
+    "max_retries": 3,
+    "priority": 2
+  },
+  {
+    "command": "invalid_script_run",
+    "max_retries": 1,
+    "priority": 5
+  }
+]

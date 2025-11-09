@@ -1,0 +1,17 @@
+[
+  {
+    "command": "not_a_real_command",
+    "max_retries": 2,
+    "priority": 5
+  },
+  {
+    "command": "unknown_binary --flag test",
+    "max_retries": 2,
+    "priority": 4
+  },
+  {
+    "command": "invalid_script_run",
+    "max_retries": 1,
+    "priority": 3
+  }
+]

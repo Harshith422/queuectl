@@ -1,0 +1,11 @@
+=== JOB d599f67d-d41d-46ca-82d5-e8b7308d27d4 @ 2025-11-07T18:12:26.986Z ===
+
+COMMAND: echo Hello from QueueCTL
+
+STDOUT:
+Hello from QueueCTL
+
+
+STDERR:
+
+

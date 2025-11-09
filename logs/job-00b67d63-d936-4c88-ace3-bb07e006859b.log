@@ -1,0 +1,36 @@
+=== JOB 00b67d63-d936-4c88-ace3-bb07e006859b | START: 2025-11-08T12:32:20.712Z | END: 2025-11-08T12:32:20.750Z ===
+
+COMMAND: dir
+
+DURATION: 0.04s
+
+STDOUT:
+ Volume in drive D is Harshith
+ Volume Serial Number is AE66-D622
+
+ Directory of D:\queuectl
+
+08-11-2025  01:10    <DIR>          .
+08-11-2025  18:02    <DIR>          data
+08-11-2025  01:08               286 failjob.json
+07-11-2025  23:47                96 jest.config.js
+08-11-2025  01:08               416 job.json
+08-11-2025  18:02    <DIR>          logs
+08-11-2025  01:11               694 mixedjobs.json
+08-11-2025  00:21    <DIR>          node_modules
+08-11-2025  00:21           198,577 package-lock.json
+08-11-2025  00:21               573 package.json
+08-11-2025  01:01             1,067 queuectl.js
+08-11-2025  01:01             8,467 README.md
+08-11-2025  00:21    <DIR>          src
+07-11-2025  21:32    <DIR>          tests
+08-11-2025  01:12           348,322 uml.png
+               9 File(s)        558,498 bytes
+               6 Dir(s)  155,332,395,008 bytes free
+
+
+STDERR:
+(empty)
+
+
+
