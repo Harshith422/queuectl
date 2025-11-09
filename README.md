@@ -89,94 +89,132 @@ queuectl/
 ## Setup Instructions
 
 1️ Clone and Navigate
+```
 git clone https://github.com/Harshith422/queuectl.git
 cd queuectl
+```
 
 2️ Install Dependencies
+```
 npm init -y
 npm install commander uuid winston express
 npm install --save-dev jest eslint prettier
+```
 
 3️ Verify Setup
+```
 npm test
+```
 
 Expected output:
+```
 PASS  tests/integration.test.js
 PASS  tests/retryLogic.test.js
 Test Suites: 2 passed, 2 total
+```
 
 ---
 
 ## Usage Examples
 
- Enqueue a Job
+Enqueue a Job
 
 Option 1 — using a JSON file:
+```
 node queuectl.js enqueue job.json
+```
 
 Option 2 — inline JSON:
+```
 node queuectl.js enqueue "{\"command\":\"echo Hello from QueueCTL\"}"
+```
 
- Output:
+Output:
+```
 Job added to queue: 2b3f4a56-cd90-4a23-9f21-e32b3e9f7b0d (priority 3)
+```
 
 ---
 
- List Jobs
+List Jobs
+```
 node queuectl.js list
+```
 
- Output:
+Output:
+```
 ┌─────────┬────────────────────────────┬───────────────┬────────────┬────────┬──────┐
 │ (index) │ id                         │ command       │ state      │ retries│ ...  │
 └─────────┴────────────────────────────┴───────────────┴────────────┴────────┴──────┘
+```
 
 ---
 
- Start Worker(s)
+Start Worker(s)
+```
 node queuectl.js worker:start --count 2
+```
 
- Output:
+Output:
+```
 Worker 1 picked job <id> (priority 5)
 Job <id> failed. Retrying in 2000ms (attempt 1/3)
   Job <id> moved to DLQ
   Worker completed job <id>
+```
 
 ---
 
- Check Queue Status
+Check Queue Status
+```
 node queuectl.js status
+```
 
- Output:
- Current Queue Summary
+Output:
+```
+Current Queue Summary
 ┌─────────┬─────────┬────────────┬───────────┬────────┬──────┐
 │ pending │ processing │ completed │ failed │ dead │
 └─────────┴────────────┴───────────┴────────┴──────┘
+```
 
 ---
 
- View Dead Letter Queue
+View Dead Letter Queue
+```
 node queuectl.js dlq:list
+```
 
- Output:
+Output:
+```
 ┌─────────┬──────────────────────┬──────────┬────────────────────────────┐
 │ id      │ command              │ attempts │ last_error                 │
 └─────────┴──────────────────────┴──────────┴────────────────────────────┘
+```
 
 ---
 
- Retry DLQ Job
-  node queuectl.js dlq:retry <job-id>
+Retry DLQ Job
+```
+node queuectl.js dlq:retry <job-id>
+```
 
- Output:
-  Job <job-id> requeued from DLQ.
+Output:
+```
+Job <job-id> requeued from DLQ.
+```
 
 ---
 
- Launch Web Dashboard
+Launch Web Dashboard
+```
 node queuectl.js dashboard
+```
 
- Output:
- QueueCTL Dashboard running at http://localhost:3000
+Output:
+```
+QueueCTL Dashboard running at http://localhost:3000
+```
 
 Visit http://localhost:3000 to visualize:
 - Job summary (Pending, Completed, DLQ)
@@ -186,7 +224,7 @@ Visit http://localhost:3000 to visualize:
 
 ---
 
-##  Job Lifecycle
+## Job Lifecycle
 
 pending — waiting to be picked  
 processing — being executed  
@@ -196,27 +234,33 @@ dead — permanently failed (in DLQ)
 
 ---
 
-##  Retry & Backoff Logic
+## Retry & Backoff Logic
 
+```
 delay = base ^ attempts (in seconds)
+```
 
 Example (base = 2):
+```
 Attempt | Delay
 1 | 2s
 2 | 4s
 3 | 8s
+```
 
 ---
 
-##  Configuration
+## Configuration
 
 Edit `data/config.json`:
+```
 {
   "maxRetries": 3,
   "backoffBase": 2
 }
+```
 
-maxRetries: Max retries per job (default 3)
+maxRetries: Max retries per job (default 3)  
 backoffBase: Base value for exponential backoff (default 2)
 
 ---
@@ -231,35 +275,41 @@ Queue Metrics — visible in status command & dashboard
 
 ---
 
-##  Testing
+## Testing
 
+```
 npm test
+```
 
- Output:
+Output:
+```
 PASS  tests/integration.test.js
 PASS  tests/retryLogic.test.js
+```
 
 ---
 
-##  Architecture Overview
+## Architecture Overview
 
 CLI (src/cli): Handles commands  
 Core (src/core): Job engine, retry, DLQ, workers  
 Storage (src/storage): File persistence and config  
 Utils (src/utils): Logging, timestamps, locks  
 Web (src/web): Express-based dashboard
+
 ![QueueCTL Architecture](./uml.png)
 You can check the Project Architecture in Repo
+
 ---
 
-##  Demo Video
+## Demo Video
 
 Demo Video Link Below:
 https://drive.google.com/file/d/1Bn3eCWavBf3QHTtjWsGLfSIpGO-N_7Dz/view?usp=sharing
 
 ---
 
-##  Evaluation Checklist
+## Evaluation Checklist
 
  CLI operations  
  Retry & DLQ  
@@ -276,7 +326,7 @@ https://drive.google.com/file/d/1Bn3eCWavBf3QHTtjWsGLfSIpGO-N_7Dz/view?usp=shari
 
 Harshith P  
 B.Tech Artificial Intelligence Engineering  
-Amrita Vishwa Vidyapeetham 
+Amrita Vishwa Vidyapeetham  
 Email: potnuriharshith@gmail.com
 
 ---
