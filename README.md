@@ -3,7 +3,9 @@
 > A fully functional, production-grade, CLI-based background job queue system built using Node.js.  
 > It handles parallel job processing, automatic retries with exponential backoff, timeout management, and a Dead Letter Queue (DLQ) — with an integrated web dashboard for monitoring.
 
----
+🎥 Demo Video Link:  
+[https://drive.google.com/file/d/1Bn3eCWavBf3QHTtjWsGLfSIpGO-N_7Dz/view?usp=sharing](https://drive.google.com/file/d/1Bn3eCWavBf3QHTtjWsGLfSIpGO-N_7Dz/view?usp=sharing)
+
 
 ## Overview
 
